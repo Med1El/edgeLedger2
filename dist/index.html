@@ -12,6 +12,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="mobile.css"
+    />
   </head>
   <body id="home">
     <nav id="navbar">
@@ -21,9 +26,9 @@
       </div>
       <ul>
         <li><a href="#home">Home</a></li>
-        <li><a href="#What">What</a></li>
-        <li><a href="#Who">Who</a></li>
-        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#what">What</a></li>
+        <li><a href="#who">Who</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
     <section id="showcase">
@@ -41,27 +46,33 @@
       <div class="boxes">
         <div class="box">
           <i class="fas fa-university fa-2x"></i>
-          <h1>Investment Banking</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            debitis, illum numquam laboriosam aut libero!
-          </p>
+          <div class="text-wrapper">
+            <h1>Investment Banking</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              debitis, illum numquam laboriosam aut libero!
+            </p>
+          </div>
         </div>
         <div class="box">
           <i class="fas fa-book-reader fa-2x"></i>
-          <h1>Portfolio Management</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            debitis, illum numquam laboriosam aut libero!
-          </p>
+          <div class="text-wrapper">
+            <h1>Portfolio Management</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              debitis, illum numquam laboriosam aut libero!
+            </p>
+          </div>
         </div>
         <div class="box">
           <i class="fas fa-pencil-alt fa-2x"></i>
-          <h1>Tax & Custodial</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-            debitis, illum numquam laboriosam aut libero!
-          </p>
+          <div class="text-wrapper">
+            <h1>Tax & Custodial</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              debitis, illum numquam laboriosam aut libero!
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -127,5 +138,12 @@
     <footer class="main-footer">
       <h4>Copyright &copy; 2021, EdgeLedger, All Rights Reserved</h4>
     </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
   </body>
 </html>

@@ -238,8 +238,13 @@ body {
 
 #contact .contact-form .inputs .input-wrapper input,
 #contact .contact-form .inputs .input-wrapper textarea {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   padding-left: 1rem;
   line-height: 2rem;
-  font-size: 1.1rem;
   width: 90%;
+  font-size: 1rem;
+}
+
+#contact .contact-form .inputs .input-wrapper textarea {
+  height: 120px;
 }
