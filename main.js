@@ -9,9 +9,23 @@ $('#navbar a, .btn').on('click', function (event) {
 
         $('html, body').animate(
             {
-                scrollTop: $(hash).offset().top - 74
+                scrollTop: $(hash).offset().top - 130
             },
             800
         )
     }
 });
+
+//sticky nav background
+
+/*
+window.addEventListener('scroll', function () {
+    if (window.scrollY > 150) {
+        document.getElementById('navbar').style.opacity = 0.9;
+    }
+    else {
+        document.getElementById('navbar').style.opacity = 1;
+    }
+
+});
+*/
