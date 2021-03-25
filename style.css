@@ -1,0 +1,245 @@
+/* general */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.l-heading {
+  font-size: 4rem;
+}
+
+.m-heading {
+  font-size: 2rem;
+}
+
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+  padding: 0.8rem 2.2rem;
+  background: #93cb52;
+  border: none;
+  border-radius: 5%;
+}
+
+.btn:hover {
+  background: #7ab436;
+}
+
+.text-primary {
+  color: #93cb52;
+}
+
+.flexbox {
+  display: flex;
+}
+
+.main-footer {
+  background: #333;
+  text-align: center;
+  padding: 1.2rem 0;
+  color: #eee;
+}
+
+/* navbar */
+
+#navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #333;
+  color: #eee;
+}
+
+#navbar .logo {
+  padding: 1.4rem;
+  font-size: 1.4rem;
+}
+
+#navbar .logo strong span {
+  color: #93cb52;
+}
+
+#navbar .logo:hover {
+  background: #475a31;
+  border-radius: 50%;
+}
+
+#navbar ul {
+  display: flex;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+#navbar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #eee;
+  padding: 1.2rem;
+  font-size: 1.1rem;
+}
+
+#navbar ul li a:hover {
+  background: #93cb52;
+  border-radius: 10%;
+}
+
+/* showcase */
+
+#showcase {
+  background: url("img/showcase.jpg") no-repeat center center/cover;
+  height: 89.4vh;
+  color: #eee;
+}
+
+#showcase h1 {
+  background: rgba(100, 148, 237, 0.3);
+  margin: 0 4rem;
+}
+
+#showcase p {
+  margin: 2rem 4rem;
+  font-size: 1.4rem;
+}
+
+#showcase #showcase-content {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* what */
+
+#what .m-heading {
+  text-align: center;
+  margin: 1.2rem 0;
+}
+
+#what .m-heading span {
+  color: #93cb52;
+}
+
+#what .boxes {
+  display: flex;
+  text-align: center;
+}
+
+#what .boxes .box {
+  padding: 2rem;
+}
+
+#what .boxes .box i {
+  background: #93cb52;
+  padding: 1rem;
+  margin-bottom: 0.4rem;
+  border-radius: 50%;
+}
+
+#what .boxes .box h1 {
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+/* who */
+
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-content-left {
+  background: url("img/people.jpg") no-repeat center center/cover;
+}
+
+#who .who-content-right {
+  padding: 2rem 2rem;
+  line-height: 1.8rem;
+  background: #333;
+  color: #eee;
+}
+
+#who .who-content-right > * {
+  margin-bottom: 1rem;
+}
+
+#who .who-content-right ul {
+  list-style: none;
+}
+
+/* clients */
+
+#clients h1 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+#clients .logos {
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 0 1.5rem;
+}
+
+#clients .logos .logo {
+  flex: 1;
+}
+
+#clients .logos .logo img {
+  height: 50%;
+  width: 50%;
+}
+
+/* contact */
+
+#contact > div {
+  flex: 1;
+  color: #eee;
+}
+
+#contact .contact-form {
+  background: #93cb52;
+}
+
+#contact .contact-form h1,
+#contact .contact-form h5 {
+  padding: 0.75em 0;
+  padding-left: 2rem;
+}
+
+#contact .contact-form .inputs {
+  padding-top: 1rem;
+  padding-left: 2rem;
+  line-height: 2rem;
+  padding-bottom: 2rem;
+}
+
+#contact .contact-form .inputs .input-wrapper label {
+  display: block;
+}
+
+#contact .contact-form .inputs .input-wrapper input,
+#contact .contact-form .inputs .input-wrapper textarea {
+  padding-left: 1rem;
+  line-height: 2rem;
+  font-size: 1.1rem;
+  width: 90%;
+}
