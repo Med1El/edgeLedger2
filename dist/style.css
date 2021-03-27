@@ -248,3 +248,7 @@ body {
 #contact .contact-form .inputs .input-wrapper textarea {
   height: 120px;
 }
+
+#map {
+  z-index: -1;
+}

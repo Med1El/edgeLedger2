@@ -45,3 +45,7 @@
 #clients .logos img {
   width: 90%;
 }
+
+#map {
+  height: 50vh;
+}
